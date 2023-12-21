@@ -1,6 +1,29 @@
-.titel {
+#titel {
     position: absolute;
-    transform: translate(-50%, -50%);
     color: green;
     text-shadow: 0px 0px 15px lightgreen;
+}
+
+#parallax{
+    background-image: url(images/KotrisVlag.png);
+
+
+
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    filter: blur(5px) saturate(0.3);
+    transform: scale(1.1);
+}
+
+#background{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: blur(8px);
+    background-image: url(images/KotrisVlag.png);
 }
